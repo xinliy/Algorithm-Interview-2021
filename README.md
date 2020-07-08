@@ -19,7 +19,7 @@ This is a repo for me to collect and answer questions of algorithm job 2021
 - 目标函数是预测距离+正则化树的复杂度
 - 设置阈值防止过拟合(树的深度，分裂需要的最小样本数等）
 
-* Xgboost的组件CART
+ex: Xgboost的组件CART
 - 用二分法切割特征空间
 - 回归树使用最小二乘法，分类树选择基尼指数最小的特征(feature impurity) -> Gini=1-sum(P_class**2)
 
@@ -28,7 +28,7 @@ This is a repo for me to collect and answer questions of algorithm job 2021
 - 模型过度记忆了样本数据的特征
 - 当过拟合时，模型最小化训练误差（预测到样本的距离），但是方差变大（样本变动导致模型的变动），泛化能力变差
 
-* 过拟合解决方案
+ex: 过拟合解决方案
 - 增加训练集
 - 正则化(Normalization,Dropout)
 - 用交叉验证找到合适的停止训练点，或者平均模型
